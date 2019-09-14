@@ -1,0 +1,119 @@
+*{margin:0;padding:0;}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* header area start */
+.logo{
+	background: #64CCFC;
+    border: 5px solid #3434CC;
+    min-height: 50px;
+    text-align: center;
+	margin-top: 20px;
+}
+.logo h2{
+	line-height: 3;
+    text-transform: uppercase;
+}
+
+/* slider area start */
+.slider{
+	background: #FCCCFC;
+    border: 5px solid #FC34CC;
+    min-height: 100px;
+    text-align: center;
+}
+.slider h2{
+	line-height: 5;
+    text-transform: uppercase;
+}
+
+/* Menu area start */
+.menu{
+	background: #FCFCCC;
+    border: 5px solid #FCCC04;
+    min-height: 50px;
+    text-align: center;
+}
+.menu h2{
+	line-height: 3;
+    text-transform: uppercase;
+}
+
+/* Content area start */
+.content_wrapper{
+	overflow: hidden;
+}
+.left_content{
+	width: 24%;
+	min-height: 500px;
+	background-color: #FCCCCC;
+	border: 6px solid #CC0404;
+	text-align: center;
+	float: left;
+}
+.left_content h2{
+	padding-top: 250px;
+    text-transform: uppercase;
+}
+.middle_content{
+	width: 50%;
+	min-height: 500px;
+	float: left;
+	text-align: center;
+}
+.middle_content .top{
+	min-height: 75px;
+    background-color: #CCCCFC;
+    border: 5px solid #9C34FC;
+	
+}
+.middle_content .top h2{
+	padding-top: 25px;
+    text-transform: uppercase;
+}
+.middle_content .bottom{
+	min-height: 415px;
+    background-color: #B4B4B4;
+    border: 6px solid black;
+}
+.middle_content .bottom h2{
+	padding-top: 200px;
+}
+.right_content{
+	width: 24%;
+	min-height: 500px;
+	background-color: #CCFC9C;
+	border: 6px solid #049C04;
+	text-align: center;
+	float: left;
+}
+.right_content h2{
+	padding-top: 250px;
+    text-transform: uppercase;
+}
+
+/* dockbottom area start */
+.dockbottom{
+	background: #CCFCFC;
+    border: 5px solid #34CCCC;
+    min-height: 50px;
+    text-align: center;
+}
+.dockbottom h2{
+	padding-top: 14px;
+    text-transform: uppercase;
+}
+
+/* footer area start */
+.footer-area{
+	background: #FCCC9C;
+    border: 5px solid #FC6404;
+    min-height: 50px;
+    text-align: center;
+}
+.footer-area h2{
+	padding-top: 14px;
+    text-transform: uppercase;
+}
